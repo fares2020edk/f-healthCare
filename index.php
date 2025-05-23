@@ -4,7 +4,7 @@ session_start();
 $meal_plan = $_POST['meal_plan'] ?? '';
 $weight = $_POST['weight'] ?? '';
 $goal = $_POST['goal'] ?? '';
-$feedback = '';
+$feedback = ''; 
 
 // Save meal plan and weight
 if ($meal_plan) {
