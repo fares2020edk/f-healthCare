@@ -28,6 +28,7 @@ if ($goal && $weight) {
 
 <h2>Meal Planning</h2>
 <form method="POST">
+    
     <textarea name="meal_plan" rows="4" cols="50"><?php echo $_SESSION['meal_plan'] ?? ''; ?></textarea><br>
     <button type="submit">Update Meal Plan</button>
 </form>
