@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$meal_plan = $_POST['meal_plan'] ?? '';
+$meal_plan = $_POST['meal_plan'] ??  '';
 $weight = $_POST['weight'] ?? '';
 $goal = $_POST['goal'] ?? '';
 $feedback = '';
