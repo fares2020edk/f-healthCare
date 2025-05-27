@@ -1,4 +1,4 @@
-<?php
+<?php//Errir fixed
 session_start();
 
 $meal_plan = $_POST['meal_plan'] ?? '';
