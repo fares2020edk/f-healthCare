@@ -1,5 +1,6 @@
 <?php//Errir fixed
 session_start();
+//logo fixed
 
 $meal_plan = $_POST['meal_plan'] ?? '';
 $weight = $_POST['weight'] ?? '';
